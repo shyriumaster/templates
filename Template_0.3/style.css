@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  box-sizing: border-box
+}
+:root {
+  --texto: rgb(237, 245, 228);
+  --texto2: rgb(244, 241, 235);
+  --texto3: rgb(203, 203, 203);
+  --texto4: rgb(145, 148, 145);
+  --planoFundo0: rgb(22, 162, 116);
+  --planoFundo: rgb(230, 230, 230);
+  --planoFundo2: rgb(251, 251, 251);
+  --nav: rgb(0, 0, 0)
+}
+h1 {
+  font-family: helvica, arial;
+  font-size: 20 pt;
+  color: var(--texto);
+  text-align: right;
+  padding-right: 100px
+}
+h2 {
+  font-family: verdana, arial;
+  font-size: 16pt;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #EEE
+}
+h3{
+  font-family: verdana, arial;
+  font-size: 12pt;
+  margin-top: 12px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #EEE
+}
+h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid var(--texto1)
+}
+a {
+  font-family: arial;
+  font-size: 10pt;
+  color: rgb(171, 171, 171);
+  font-weight: bold;
+  text-decoration: underline
+}
+ul, ol {
+  list-style-type: none
+}
+body {
+  font-family: helvica arial;
+  font-size: 12pt;
+  color: var(--texto2);
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center
+}
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 780px;
+  height auto;
+  margin: 0 auto
+}
+main header.menuprincipal {
+  width: 100%;
+  height: auto;
+  background-color: var(--planoFundo0);
+  color: var(--texto2);
+  text-align:justify;
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  border-radius: 15px 15px 0px 0px
+}
+main nav {
+  width: 100%;
+  height: 25px;
+  background-color: var(--nav)
+}
+main nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row
+}
+main nav ul li {
+  width: 100px;
+  height: 100%
+}
+main nav ul li a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: verdana;
+  font-size: 11pt;
+  color: var(--texto2);
+  text-decoration: none
+}
+main section.texto {
+  width: 550px;
+  height: auto;
+  padding:25px;
+  text-align: justify;
+  background-color: var(--planoFundo2);
+  color: var(--texto4)
+}
+main section.texto article ol {
+  list-style: circle;
+  margin: 20px
+}
+main aside {
+  width: 230px;
+  padding: 20px;
+  font-family: arial;
+  font-size: 11pt;
+  color: var(--texto1);
+  text-align: justify;
+  background-color: rgb(124, 124, 124)
+}
+main aside ul li a {
+  font-family: arial;
+  font-size: 12px;
+  color: var(--texto1)
+}
+main footer {
+  width:100%;
+  height: auto;
+  padding: 7px;
+  border: 1px solid #EEE;
+  border-radius: 0px 0px 15px 15px;
+  background-color: rgb(124, 124, 124)
+}
+main footer a {
+  color: var(--texto1)
+}

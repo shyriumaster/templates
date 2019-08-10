@@ -1,0 +1,319 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	box-sizing: border-box
+}
+body {
+	text-align: center;
+	background-color: #F3F3F3
+}
+main {
+	width: 780px;
+	height: auto;
+	background-color: #E4E4E4;
+	margin: 0 auto
+}
+ul {
+	list-style-type: none
+}
+header.menuprincipal {
+	width: 100%;
+	height: 40px;
+	color: #FFF;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #2f2f4f
+}
+header.menuprincipal div.logotipo {
+	width: 70px;
+	height: 100%;
+	background-color: #BBBBBB
+}
+header.menuprincipal h1 {
+	padding-left: 20px;
+	font-family: helvica, arial;
+	font-size: 16px;
+	margin-right: 70px
+}
+header.menuprincipal label {
+	font-family: helvica, arial;
+	font-size: 12pt;
+	padding-left: 9px
+}
+header.menuprincipal label input[type="text"] {
+	width: 100px;
+	height: 16px;
+	font-family: helvica, arial;
+	font-size: 12pt
+
+}
+/*#############################################
+################  Menu DropDown #############*/
+nav {
+	width: 780px;
+	height: 30px;
+	background-color: #26B235
+}
+nav ul {
+	width: 100%;
+	height:100%;
+	display: flex;
+	align-items: center;
+	flex-direction: row
+
+}
+nav ul li {
+	width: 80px;
+	height: 100%;
+	position: relative
+
+}
+nav ul li:hover ul {
+	display: block
+}
+nav ul li a {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	text-decoration:none;
+	color: #FFF;
+	font-family: helvica, arial;
+	font-size: 10pt;
+	font-weight: bold;
+}
+nav ul li a:hover {
+	color: #DBFDDE
+}
+nav ul li ul {
+	flex-direction: column;
+	width: 120px;
+	height: auto;
+	display: none
+}
+
+nav ul li ul li {
+	width: 100%;
+	height: 30px;
+	background-color: #26B235
+}
+nav ul li ul li:last-child {
+	border-radius: 0px 0px 15px 15px;
+}
+nav ul li label {
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position:  relative;
+	left: 205px;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFF;
+}
+nav ul li label input[type="text"] {
+	width: 100px;
+	height: 16px;
+	margin-left: 5px
+}
+/*#############################################
+################ Fim Menu DropDown ##########*/
+
+/*######## SECTION CONTEUDO ########*/
+main section.conteudo {
+	width: 780px;
+	height: auto;
+	background-color: #FFF;
+	display: flex;
+	flex-direction: row
+}
+main section.conteudo section.texto {
+	width: 560px;
+	height: 100%;
+	border-right: 1px dashed #EEE;
+	padding: 9px
+
+
+}
+main section.conteudo section.texto h2 {
+	font-family: arial;
+	font-size: 16pt;
+	color: #666;
+	padding-top: 9px;
+	border-bottom: 1px dashed #AAA;
+	margin-bottom: 9px;
+	text-align: left
+}
+main section.conteudo article {
+	font-family: arial;
+	font-size: 10pt;
+	color: #666;
+	border-bottom: 1px dashed #666;
+	padding-bottom: 9px;
+	text-align: justify
+}
+main section.conteudo article a {
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: underline;
+	color: #75A9D1;
+}
+main section.conteudo article a:hover {
+	text-decoration: none;
+}
+main section.conteudo article ol {
+	margin-top: 7px;
+	margin-left: 30px
+}
+main section.conteudo section.texto2 {
+ width: 100%;
+ height: auto;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap
+
+}
+main section.conteudo section.texto2 .sub-header {
+	text-align: justify;
+	font-family: arial;
+	font-size: 10pt;
+	color: #666;
+	padding-bottom: 10px;
+	padding-right: 20px
+}
+main section.conteudo section.texto2 .texto {
+	text-align: justify;
+	font-family: arial;
+	font-size: 10pt;
+	color: #666;
+	padding-bottom: 10px
+
+
+}
+main section.conteudo section.texto2 h3 {
+	padding-top: 10px;
+	border-bottom: 1px dashed #666;
+}
+
+main section.conteudo section.texto2 .sub-header div {
+	font-family: arial;
+	font-size: 9pt;
+	text-align: left;
+	color: #666;
+	padding: 7px;
+	border: 3px double #BBB;
+	background-color: #EEE;
+	border: 1px dashed #999
+}
+main section.conteudo section.texto2 .sub-header div ol {
+	margin-left: 25px;
+	list-style: disc;
+	color: #799573;
+}
+main section.conteudo section.texto2 .sub-header div a {
+	font-family: helvica;
+	font-size: 10pt;
+	color: #799573;
+}
+main section.conteudo section.texto2 .texto .mensagem1 {
+	padding-top: 10px;
+}
+main section.conteudo section.texto2 .texto .mensagem {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/*############ fIM SECTION CONTEUDO ################*/
+
+/*############ cOMEÇO DO  ASIDE #####################*/
+main section.conteudo aside {
+	width: 210px;
+	height: 100%;
+	padding: 10px;
+	font-family: arial;
+	font-size: 10pt;
+	color: AAA
+}
+main section.conteudo aside div {
+	width: 100%;
+	height: auto;
+	font-family: arial;
+	font-size: 10pt;
+	color: #666;
+	text-align: justify;
+	padding: 10px;
+	border: 1px dashed #666;
+	background-color: #F7F6FF;
+}
+main section.conteudo aside ul {
+	width: 100%;
+	height: auto;
+	text-align: left
+}
+main section.conteudo aside ul li {
+	font-family: arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #75A9D1;
+	margin-left: 10px;
+	padding-top: 9px
+}
+main section.conteudo aside ul li a {
+	text-decoration: none;
+	color: #75A9D1
+}
+main section.conteudo aside ul li a:hover {
+	text-decoration: underline;
+}
+main section.conteudo aside ul li ul {
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+main section.conteudo aside ul li#menu_2 {
+	list-style-type: square
+}
+main section.conteudo aside ul li#menu_2:hover ul {
+	display: block;
+}
+main section.conteudo aside ul li#menu_2:hover ul li {
+	list-style: none;
+}
+main section.conteudo aside ul li ul li {
+	font-weight: normal;
+	margin-left: 50px;
+	list-style: disc
+}
+main section.conteudo aside h4 {
+	margin-top: 10px;
+	text-align: left;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 12pt;
+	border-bottom: 1px dashed #666;
+}
+/*############ FIM DO ASIDE ########################*/
+main footer {
+	font-family: verdana, arial;
+	font-size: 9pt;
+	font-weight: bold;
+	color: #CCC;
+	background-color: #2F2F4F;
+	padding: 5px;
+}
+main footer a {
+	color: #FFF;
+	font-family: arial;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+main footer a:hover {
+	text-decoration: underline;
+}
